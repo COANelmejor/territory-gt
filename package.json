@@ -1,0 +1,23 @@
+{
+  "name": "territory-gt",
+  "version": "1.0.0",
+  "description": "Obtén los departamentos de Guatemala y sus Municipios.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/COANelmejor/territory-gt.git"
+  },
+  "keywords": [
+    "guatemala",
+    "geografy"
+  ],
+  "author": "COANelmejor <coanelmejor@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/COANelmejor/territory-gt/issues"
+  },
+  "homepage": "https://github.com/COANelmejor/territory-gt#readme"
+}
