@@ -1,3 +1,5 @@
+const rm = require('./removeDiacritics');
+
 /**
  * Esta función permite quitar los dacríticos y espacios del string enviado.
  * 
@@ -7,7 +9,7 @@
  * 
  */
 function repDepartamento(str) {
-  return String(removeDiacritics(str).split(" ").join("").toLowerCase());
+  return String(rm(str).split(" ").join("").toLowerCase());
 }
 
 module.exports = repDepartamento;
