@@ -4,15 +4,6 @@ Departamentos y Municipios de Guatemala para programadores.
 
 > Los datos están actualizados hasta el **14 de diciembre de 2019.**
 
-## Índice
-
-* [Instalación](##Instalación)
-* [Documentación](##Documentación)
-  * [Uso](###Uso)
-  * [Departamentos](###Departamentos)
-  * [Cabeceras Departamentales](###Cabeceras_Departamentales)
-  * [Municipios](###Municipios)
-
 ## Instalación
 
 `npm install territory-gt`
