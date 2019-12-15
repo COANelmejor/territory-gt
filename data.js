@@ -81,7 +81,7 @@ const municipios = {
     "Quezaltepeque",
     "San Jacinto",
     "San José La Arada",
-    "San Juan Hermita",
+    "San Juan Ermita",
   ],
   "elprogreso": [
     "Guastatoya",
@@ -459,7 +459,7 @@ const municipiosObj = {
     "Quezaltepeque",
     "San Jacinto",
     "San José La Arada",
-    "San Juan Hermita",
+    "San Juan Ermita",
   ],
   "El Progreso": [
     "Guastatoya",
@@ -774,6 +774,7 @@ const municipiosObj = {
     "La Unión",
     "Río Hondo",
     "San Diego",
+    "San Jorge",
     "Teculután",
     "Usumatlán",
   ],
