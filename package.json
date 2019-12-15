@@ -1,7 +1,7 @@
 {
   "name": "territory-gt",
-  "version": "1.0.0",
-  "description": "Obtén los departamentos de Guatemala y sus Municipios.",
+  "version": "1.0.1",
+  "description": "Departamentos y Municipios de Guatemala para programadores.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

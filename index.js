@@ -9,22 +9,31 @@ function departamentos (){
 }
 
 /**
- * Devuelve los Municipios de un Departamento.
+ * Retorna los Municipios de un Departamento.
  * 
  * @param {String} departamento 
  */
 function municipios(departamento){
-  const ldep = repDep(departamento);
-  return data.municipios[ldep];
+  if (departamento == null) {
+    return data.municipiosObj;
+  } else {
+    const ldep = repDep(departamento);
+    return data.municipios[ldep];
+  }
 }
 
 /**
- * Devuleve la Cabercera Departamental de un Departamento
+ * Retorna la Cabercera Departamental de un Departamento
+ * 
  * @param {String} departamento 
  */
 function cabecera (departamento){
   const ldep = repDep(departamento);
-  return data.municipios[ldep][0];
+  if (data.municipios[ldep] == null){
+    return undefined
+  } else {
+    return data.municipios[ldep][0];
+  }
 }
 
 module.exports = {
