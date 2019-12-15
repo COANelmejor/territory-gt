@@ -61,7 +61,7 @@ Lo cual retornará los un `String[]` con los departamentos de Guatemala.
 
 Para obtener los departamentos usa el método `cabecera`.
 
-Funciona con un parámetro, que debe ser un String con el nombre del departamento de Guatemala o 
+Funciona con un parámetro, que debe ser un String con el nombre del departamento de Guatemala o
 devolverá `undefined`
 
 **Ejemplos:**
@@ -94,7 +94,7 @@ GT.cabecera('SuchiTePequeZ')
 // 'Mazatenango'
 ```
 
-Debes escribir el nombre completo del departamento, tal como se recibe en el metodo 
+Debes escribir el nombre completo del departamento, tal como se recibe en el metodo
 [Departamentos](###Departamentos) sino recibirás un `undefined`.
 
 ```Javascript
