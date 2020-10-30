@@ -208,9 +208,10 @@ GT.municipios('El Petén')
 Con este método obtendrás todos los datos de los objetos utilizados para obtener los datos.
 
 Puedes obtener 3 datos diferntes:
+
 * `departamentos`
-*  `municipios`
-*  `municipiosObj`
+* `municipios`
+* `municipiosObj`
 
 ```js
 const datapura = GT.datapura()
