@@ -36,9 +36,17 @@ function cabecera (departamento){
   }
 }
 
+/**
+ * Retorna todos las constantes de data como un objetos.
+ */
+function datapura() {
+  return data
+}
+
 module.exports = {
   departamentos,
   municipios,
-  cabecera
+  cabecera,
+  datapura
 }
 

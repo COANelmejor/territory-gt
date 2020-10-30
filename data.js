@@ -1,3 +1,6 @@
+/** # Departamentos
+ * Devuelve un array con todos los Departmentos de Guatemala
+ */
 const departamentos = [
   "Alta Verapaz",
   "Baja Verapaz",
@@ -23,6 +26,9 @@ const departamentos = [
   "Zacapa",
 ]
 
+/** # Municipios
+ * Devuelve un objeto que tiene como propiadedades los nombres de los departamentos, sin diacríticos.
+ */
 const municipios = {
   "altaverapaz": [
     "Cobán",
@@ -401,6 +407,9 @@ const municipios = {
   ],
 }
 
+/** # Objetos de Municipios
+ *  Devuelve como resultado
+ */
 const municipiosObj = {
   "Alta Verapaz": [
     "Cobán",
