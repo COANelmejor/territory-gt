@@ -202,3 +202,47 @@ GT.municipios('Petén');
 GT.municipios('El Petén')
 // undefined
 ```
+
+### Data Pura
+
+Con este método obtendrás todos los datos de los objetos utilizados para obtener los datos.
+
+Puedes obtener 3 datos diferntes:
+* `departamentos`
+*  `municipios`
+*  `municipiosObj`
+
+```js
+const datapura = GT.datapura()
+
+datapura.municipios
+
+// {
+//   altaverapaz: [
+//     'Cobán',
+//     'Chahal',
+//     'Chisec',
+//     'Fray Bartolomé de las Casas',
+//     'Lanquín',
+//     'Panzos',
+//     'San Cristobal Verapaz',
+//     'San Miguel Tucurú',
+//     'San Pedro Carchá',
+//     'SanJuan Chamelco',
+//     'Santa Catarina La Tinta',
+//     'Santa Cruz Verapaz',
+//     'Santa María Cahabón',
+//     'Senahú',
+//     'Tactíc',
+//     'Tamahú'
+//   ], [...] ,
+//   zacapa: [
+//     'Zacapa',     'Cabañas',
+//     'Estanzuela', 'Gualán',
+//     'Huité',      'La Unión',
+//     'Río Hondo',  'San Diego',
+//     'Teculután',  'Usumatlán'
+//   ]
+// }
+
+```
