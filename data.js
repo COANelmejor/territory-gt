@@ -788,9 +788,66 @@ const municipiosObj = {
     "Usumatlán",
   ],
 }
+/** # Población por departamento
+ * Devuelve como resultado un entero con la catidad total de la población por departamento, sin diacríticos.
+ */
+const poblacionDepto = {
+  "altaverapaz": 1,
+  "bajaverapaz": 1,
+  "chimaltenango": 1,
+  "chiquimula": 1,
+  "elprogreso": 1,
+  "escuintla": 1,
+  "guatemala": 1,
+  "huehuetenango": 1,
+  "izabal": 1,
+  "jalapa": 1,
+  "jutiapa": 1,
+  "peten": 1,
+  "quetzaltenango": 1,
+  "quiche": 1,
+  "retalhuleu": 1,
+  "sacatepequez": 1,
+  "sanmarcos": 1,
+  "santarosa": 1,
+  "solola": 1,
+  "suchitepequez": 1,
+  "totonicapan": 1,
+  "zacapa": 1
+}
+
+/** # Población por departamento
+ *  Devuelve como resultado un entero con la catidad total de la población por departamento
+ */
+const poblacionDeptoObj = {
+  "Alta Verapaz": 1,
+  "Baja Verapaz": 1,
+  "Chimaltenango": 1,
+  "Chiquimula": 1,
+  "El Progreso": 1,
+  "Escuintla": 1,
+  "Guatemala": 1,
+  "Huehuetenango": 1,
+  "Izabal": 1,
+  "Jalapa": 1,
+  "Jutiapa": 1,
+  "Petén": 1,
+  "Quetzaltenango": 1,
+  "Quiché": 1,
+  "Retalhuleu": 1,
+  "Sacatepéquez": 1,
+  "San Marcos": 1,
+  "Santa Rosa": 1,
+  "Sololá": 1,
+  "Suchitepéquez": 1,
+  "Totonicapán": 1,
+  "Zacapa": 1,
+}
 
 module.exports = {
   departamentos,
   municipios,
-  municipiosObj
+  municipiosObj,
+  poblacionDepto,
+  poblacionDeptoObj
 }
