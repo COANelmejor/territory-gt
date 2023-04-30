@@ -21,6 +21,19 @@ function municipios(departamento){
     return data.municipios[ldep];
   }
 }
+/**
+ * Retorna los el número de habitantes de un Departamento.
+ * 
+ * @param {String} departamento 
+ */
+function poblacion(departamento){
+  if (departamento == null) {
+    return data.poblacionDeptoObj;
+  } else {
+    const ldep = repDep(departamento);
+    return data.poblacionDepto[ldep];
+  }
+}
 
 /**
  * Retorna la Cabercera Departamental de un Departamento
@@ -46,7 +59,8 @@ function datapura() {
 module.exports = {
   departamentos,
   municipios,
+  poblacion,
   cabecera,
-  datapura
+  datapura,
 }
 

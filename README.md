@@ -203,15 +203,90 @@ GT.municipios('El Petén')
 // undefined
 ```
 
+
+### Población
+
+Para obtener la población de un departamento usa el método `poblacion`.
+
+Funciona con parámetro, que debe ser un String con el nombre del departamento.
+
+El primer String será la cabecera departamental.
+
+```Javascript
+GT.poblacion('Guatemala')
+//  3015081
+
+GT.poblacion('Texas')
+// undefined
+```
+
+También puede no llevar el parámetro departamentos, lo que devolverá un Objeto con todos los
+departamentos como parámetros. Cadá parámetro tendrá un `Integer` con el número de habitantes de cada departamento.
+
+```Javascript
+GT.poblacion()
+// {
+//   'Alta Verapaz': 1215038,
+//   'Baja Verapaz': 299476,
+//   "Quetzaltenango": 799101,
+//   'Quiché': 949261,
+//   "Retalhuleu": 326828,
+//   'Sacatepéquez': 330469,
+//   'San Marcos': 1032277,
+//   'Santa Rosa': 396607,
+//   'Sololá': 421583,
+//   'Suchitepéquez': 554695,
+//   'Totonicapán': 418569,
+//   "Zacapa": 245374
+// }
+```
+
+**Ejemplos:**
+
+```Javascript
+GT.poblacion('Guatemala')
+// 3015081
+
+GT.poblacion('Suchitepéquez');
+// 554695
+
+GT.poblacion('Izabal')
+// 408688
+```
+
+También puedes poner el nombre del departamento con o sin diacríticos, con o sin mayúsculas, con o sin espacios:
+
+```Javascript
+
+GT.poblacion('suchitepequez')
+// 408688
+
+GT.poblacion('bajaVerapaz')
+// 299476
+
+```
+
+Debes escribir el nombre completo del departamento, tal como se recibe en el metodo [Departamentos](###Departamentos) sino recibirás un `undefined`.
+
+```Javascript
+GT.poblacion('Petén');
+// 545600
+
+GT.poblacion('El Petén')
+// undefined
+```
+
 ### Data Pura
 
 Con este método obtendrás todos los datos de los objetos utilizados para obtener los datos.
 
-Puedes obtener 3 datos diferntes:
+Puedes obtener 5 datos diferntes:
 
 * `departamentos`
 * `municipios`
 * `municipiosObj`
+* `poblacionDepto`
+* `poblacionDeptoObj`
 
 ```js
 const datapura = GT.datapura()
@@ -247,3 +322,66 @@ datapura.municipios
 // }
 
 ```
+
+
+```js
+const datapura = GT.datapura()
+
+datapura.poblacionDepto
+
+// {
+//   altaverapaz: 1215038,
+//   bajaverapaz: 299476,
+//   chimaltenango: 615776,
+//   chiquimula: 415063,
+//   elprogreso: 176632,
+//   escuintla: 733181,
+//   guatemala: 3015081,
+//   huehuetenango: 1170669,
+//   izabal: 408688,
+//   jalapa: 342923,
+//   jutiapa: 488395,
+//   peten: 545600,
+//   quetzaltenango: 799101,
+//   quiche: 949261,
+//   retalhuleu: 326828,
+//   sacatepequez: 330469,
+//   sanmarcos: 1032277,
+//   santarosa: 396607,
+//   solola: 421583,
+//   suchitepequez: 554695,
+//   totonicapan: 418569,
+//   zacapa: 245374
+// }
+
+datapura.poblacionDeptoObj
+// {
+//   'Alta Verapaz': 1215038,
+//   'Baja Verapaz': 299476,
+//   'Chimaltenango': 615776,
+//   'Chiquimula': 415063,
+//   'El Progreso': 176632,
+//   'Escuintla': 733181,
+//   'Guatemala': 3015081,
+//   'Huehuetenango': 1170669,
+//   'Izabal': 408688,
+//   'Jalapa': 342923,
+//   'Jutiapa': 488395,
+//   'Petén': 545600,
+//   'Quetzaltenango': 799101,
+//   'Quiché': 949261,
+//   'Retalhuleu': 326828,
+//   'Sacatepéquez': 330469,
+//   'San Marcos': 1032277,
+//   'Santa Rosa': 396607,
+//   'Sololá': 421583,
+//   'Suchitepéquez': 554695,
+//   'Totonicapán': 418569,
+//   'Zacapa': 245374
+// }
+
+```
+_______________________
+#### Referencia de datos actualizados:
+
+Principales Resultados del Censo 2018. (2023, 16 de abril). Censo poblacion y vivienda. Fecha de consulta: abril 28, 2023 desde [https://www.censopoblacion.gt/archivos/Principales_resultados_Censo2018.pdf](https://www.censopoblacion.gt/archivos/Principales_resultados_Censo2018.pdf)
