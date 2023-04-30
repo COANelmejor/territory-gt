@@ -247,3 +247,7 @@ datapura.municipios
 // }
 
 ```
+_______________________
+#### Referencia de datos actualizados:
+
+Principales Resultados del Censo 2018. (2023, 16 de abril). Censo poblacion y vivienda. Fecha de consulta: abril 28, 2023 desde (https://www.censopoblacion.gt/archivos/Principales_resultados_Censo2018.pdf)[https://www.censopoblacion.gt/archivos/Principales_resultados_Censo2018.pdf]
