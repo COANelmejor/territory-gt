@@ -21,7 +21,11 @@ function municipios(departamento){
     return data.municipios[ldep];
   }
 }
-
+/**
+ * Retorna los el número de habitantes de un Departamento.
+ * 
+ * @param {String} departamento 
+ */
 function poblacion(departamento){
   if (departamento == null) {
     return data.poblacionDeptoObj;
